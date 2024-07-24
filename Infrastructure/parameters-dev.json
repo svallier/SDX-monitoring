@@ -1,0 +1,51 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "environment": {
+      "value": "DEV"
+    },
+    "resourceGroupName": {
+      "value": "IST-GLB-IENO-CACTOOL-DEV-RG01"
+    },
+    "logAnalyticsWorkspaceName": {
+      "value": "aziemm1chx950"
+    },
+    "keyVaultName": {
+      "value": "azieks1hya742"
+    },
+    "storageAccountName": {
+      "value": "aziest1abm953"
+    },
+    "appServicePlanName": {
+      "value": "azieap1chx950"
+    },
+    "functionAppName": {
+      "value": "aziefn1chx950"
+    },
+    "resourceGroupvNetName": {
+      "value": "IST-GLB-IENO-COMMON-DEV-RG01"
+    },
+    "vNetName": {
+      "value": "IST-GLB-IENO-APPLIC-DEV-VN01"
+    },
+    "subnetName": {
+      "value": "IST-GLB-IENO-WEBAPP-DEV-SN05"
+    },
+    "natGatewayName": {
+      "value": "aziegw1chx950"
+    },
+    "anomaliesDatasetId": {
+      "value": "1075ee42-d63b-4a4d-bc5c-520edb515714"
+    },
+    "anomaliesReportId": {
+      "value": "3afe0297-9589-4196-abe9-80092214a155"
+    },
+    "complianceDatasetId": {
+      "value": "cffd2337-fafa-421b-83a0-7db65ebf83de"
+    },
+    "complianceReportId": {
+      "value": "6c352b0a-7968-4ce3-a9fd-459012fd4223"
+    }
+  }
+}
